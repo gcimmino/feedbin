@@ -7,15 +7,18 @@ group :development do
   gem 'better_errors'
   gem 'quiet_assets'
   gem 'capistrano', '~> 2.15.5'
-  gem 'capistrano-unicorn', github: 'sosedoff/capistrano-unicorn', ref: '52376ad', require: false
+  gem 'capistrano-rails'
+  gem 'rvm-capistrano'
+  # gem 'capistrano-unicorn', github: 'sosedoff/capistrano-unicorn', ref: '52376ad', require: false
 end
 
-group :production do
-  gem "therubyracer", require: 'v8'
-end
+# group :production do
+#   gem "therubyracer", require: 'v8'
+# end
 
 gem 'pg'
-gem 'unicorn'
+# gem 'unicorn'
+gem 'dotenv-rails'
 
 gem 'nokogiri', '1.5.10'
 
