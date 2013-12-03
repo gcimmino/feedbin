@@ -1,0 +1,6 @@
+BUNDLE_GEMFILE=/home/vagrant/apps/feedbin/Gemfile
+RAILS_ENV=production
+MEMCACHED_HOSTS=127.0.0.1:11121
+POSTGRES_USERNAME=vagrant
+DATABASE_URL=postgres://vagrant:secret@127.0.0.1:5432/feedbin_production
+SECRET_KEY_BASE=b51d10c7b9b1b7491f6ffd064aa2c62d33ae2cd807505c62b01d6cb5bec41cffde92275ab621e584eea2b21c1a46bd6d354fb90f1759ed2c0fdd848c96c8848b
